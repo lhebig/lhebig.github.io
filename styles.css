@@ -1,0 +1,116 @@
+body {
+    background-image: url(images/paper%20texture.png);
+    font-family: sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p{
+    
+}
+h1 {
+    color:black;
+    font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 350px;
+}
+
+h4 {
+    color:black;
+    font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h5{
+   font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;  
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    color: black;
+    border: 5px
+    solid #000;
+    padding: 50px;
+    margin-top:50px;
+}
+
+.heading-container {
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.button {
+     font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 232.57;
+}
+
+    .position {
+        position: relative;
+        left: 55px;
+        top: 0px;
+}
+.letter g {
+    font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 350px;
+}
+
+    .g {
+        position:relative;
+        left: 275.134px;
+        bottom: 685px;
+
+}
+.letterforms {
+    font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+   
+     
+}
+
+    .overflow { 
+    overflow-x:scroll;
+    overflow-y:hidden;
+    float:left;
+    width: 300px;
+    height: 100px;
+        
+
+}
+  
+
+.description p {
+    font-family: "futura-pt",sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 12px;
+    float: left ;
+    width: 300px;
+
+}
+
+.name {
+  
+}
+
+.sources {
+     font-family: "futura-pt",sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 9px;
+    width: 300px;
+}
