@@ -33,11 +33,11 @@ h5{
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 1000px;
     color: black;
     border: 5px
     solid #000;
-    padding: 50px;
+    padding: 60px;
     margin-top:50px;
 }
 
@@ -48,36 +48,38 @@ h5{
     font-size: 40px;
 }
 
-.button {
-     font-family: eloquent-jf-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 232.57;
+/* Large DIV for letter anyalsis and button */
+.group-2 {
+    display:flex;
+    justify-content:flex-start;
+    
+}
+#button {
+
+    z-index:30;
 }
 
-    .position {
-        position: relative;
-        left: 55px;
-        top: 0px;
+
 }
 .letter-g {
+    z-index:20;
+    top: 43px;
+    left: 148px;
     font-family: eloquent-jf-pro, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 350px;
+    position:absolute;
+    left:auto;
 }
 
-    .g {
-        position:relative;
-        left: 275.134px;
-        bottom: 685px;
-
-}
+    
 .letterforms {
     font-family: eloquent-jf-pro, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    
    
      
 }
@@ -88,23 +90,42 @@ h5{
     float:left;
     width: 300px;
     height: 100px;
+    display: flex;
+    justify-content: flex-start
+    
         
 
 }
   
-
-.description p {
+.group-3 {
+    display:flex;
+    justify-content: flex-start;
+    width: 768px; 
+}
+.description {
     font-family: "futura-pt",sans-serif;
     font-style:normal;
     font-weight: 400;
     font-size: 12px;
     float: left ;
     width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    width: 285.996px;
+    height:
+    
 
 }
-
+.group-4{
+    display:flex;
+    justify-content: flex-start;
+    width: 768px; 
+}
 .name {
-    display:
+    display: flex;
+    justify-content: flex-start;
+    width:200px;
+
   
 }
 
