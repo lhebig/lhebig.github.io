@@ -22,18 +22,23 @@ h4 {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: -10;
 }
 
 h5{
    font-family: "futura-pt",sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 9px;  
+    font-size: 9px;
+    position: absolute;
+    display: flex;
+    margin: 0px;
 }
-.container {
+.container-position {
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 600px;
+    height: 1300px;
     color: black;
     border: 5px
     solid #000;
@@ -41,36 +46,52 @@ h5{
     margin-top:50px;
 }
 
+.position{
+position: relative;
+    
+}
+
 .heading-container {
     font-family: "futura-pt",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
+    position: absolute;
 }
 
 /* Large DIV for letter anyalsis and button */
+
 .group-2 {
-    display:flex;
-    justify-content:flex-start;
+    /*display:flex;
+    justify-content:flex-start; */
+    position: absolute;
+    width: 768px;
+    display: flex;
+    top: 270px;
     
 }
+
+
 #button {
 
-    z-index:30;
+    z-index:40;
+    position:absolute;
+    top: -50px;
+    left: -20px;
 }
+
 
 
 }
 .letter-g {
-    z-index:20;
-    top: 43px;
-    left: 148px;
     font-family: eloquent-jf-pro, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 350px;
+    font-size: 800px;
     position:absolute;
-    left:auto;
+    display: flex;
+    justify-content: flex-start;
+    
 }
 
     
@@ -84,6 +105,14 @@ h5{
      
 }
 
+.group-3 {
+   /* display:flex;
+    justify-content: flex-start; */
+    width: 768px; 
+    position: absolute;
+    top:1000px;
+    
+}
     .overflow { 
     overflow-x:scroll;
     overflow-y:hidden;
@@ -91,17 +120,14 @@ h5{
     width: 300px;
     height: 100px;
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
+    margin-right: 30px;
     
         
 
 }
   
-.group-3 {
-    display:flex;
-    justify-content: flex-start;
-    width: 768px; 
-}
+
 .description {
     font-family: "futura-pt",sans-serif;
     font-style:normal;
@@ -112,27 +138,75 @@ h5{
     display: flex;
     justify-content: flex-start;
     width: 285.996px;
-    height:
     
 
 }
-.group-4{
+
+
+.group-4 {
     display:flex;
     justify-content: flex-start;
-    width: 768px; 
+    position: absolute;
+    top: 1200px;
+    width: 200px; 
+    
 }
-.name {
+.picture {
     display: flex;
     justify-content: flex-start;
-    width:200px;
+    position:absolute;
+    width: 50px;
+    
 
-  
 }
 
+.name {
+    color:black;
+    font-family: eloquent-jf-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    width: 200px;
+    position:absolute;
+}
+
+.BFA {
+    display: flex;
+    position:absolute;
+    bottom: 200px;
+    width: 200px;
+    
+     
+    
+}
+
+
+.group-5 {
+    display:flex;
+    justify-content: flex-start;
+    width: 200px; 
+    position: absolute;
+    top: 1200px;
+    right: 300px;
+}
+
+.source-title{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 325px;
+
+}
 .sources {
-     font-family: "futura-pt",sans-serif;
+    font-family: "futura-pt",sans-serif;
     font-style:normal;
     font-weight: 400;
     font-size: 9px;
-    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 325px;
+    margin-top: -10;
+    top: -30px;
 }
+
