@@ -34,13 +34,14 @@ h5{
     display: flex;
     margin: 0px;
 }
+
 .container-position {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
-    height: 1300px;
+    height: 1100px;
     color: black;
-    border: 5px
+    border: 2px
     solid #000;
     padding: 60px;
     margin-top:50px;
@@ -68,31 +69,39 @@ position: relative;
     width: 768px;
     display: flex;
     top: 270px;
+    justify-content: flex-start;
     
 }
 
 
 #button {
 
-    z-index:40;
+    z-index: 20;
     position:absolute;
-    top: -50px;
-    left: -20px;
+    display:flex;
+    top: 220px;
+    left: 170px;
 }
 
-
-
+.cycle-slideshow analysis {
+    z-index:-30;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    left: 2
 }
-.letter-g {
+
+/*.letter-g {
+    position:absolute;
     font-family: eloquent-jf-pro, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 800px;
-    position:absolute;
-    display: flex;
-    justify-content: flex-start;
-    
+    font-size: 750px;
+    float:left;
+    z-index:-40;
+    top: -1000px;
 }
+*/
 
     
 .letterforms {
@@ -110,7 +119,7 @@ position: relative;
     justify-content: flex-start; */
     width: 768px; 
     position: absolute;
-    top:1000px;
+    top:870px;
     
 }
     .overflow { 
@@ -138,7 +147,7 @@ position: relative;
 
 .group-4 {
     position: absolute;
-    top: 1220px;
+    top: 1095px;
     width: 200px; 
     
 }
@@ -174,12 +183,12 @@ position: relative;
 .group-6 {
     width: 800px; 
     position: absolute;
-    top:1000px;
+    top:1100px;
     display: flex;  
 }
 .group-5 {
    position: absolute;
-    top: 1230px;
+    top: 1100px;
     width: 200px; 
     display: flex;
     justify-content: flex-start;
