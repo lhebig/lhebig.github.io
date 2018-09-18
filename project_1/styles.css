@@ -122,7 +122,7 @@ position: relative;
     justify-content: flex-start; */
     width: 768px; 
     position: absolute;
-    top:780px;
+    top:750px;
     
 }
     .overflow { 
@@ -153,7 +153,7 @@ position: relative;
 
 .group-4 {
     position: absolute;
-    top: 1000px;
+    top: 995px;
     width: 200px; 
     
 }
@@ -194,7 +194,7 @@ position: relative;
 }
 .group-5 {
    position: absolute;
-    top: 1020px;
+    top: 1000px;
     width: 200px; 
     display: flex;
     justify-content: flex-start;
