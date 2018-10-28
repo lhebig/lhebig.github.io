@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+
+}
+
+/*.container{   
+    background-image: url(images/Concrete-Wall.jpg);
+    position:fixed;
+    width: 1024px;
+    height:768px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 3000px;
+    color: black;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+
+h1 {
+    font-family: "komu-a", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+}
+
+h2 {
+    font-family: "komu-a", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+p {
+    font-family: "gill-sans-nova", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*body {
+    background-image: url(images/Concrete-Wall.jpg);
+    position:fixed;
+    width: 1024px;
+    height:768px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+*/
+
+
+/* PAGE 1 */
+
+.section: nth-child(5n+1) {
+    height: 768px;
+    background-color: #FF708F;
+}
+
+/*
+.heading-page-1 {
+    background-color :aqua;
+    width: 350.00px;
+    height:100px;
+    padding: 10px;
+    position:relative; 
+    margin: 0px;
+    bottom: 300px;
+    left: 200px;
+    text-align: center;
+    }
+*/
+
+.button {
+    background-color: #ec5443;
+
+
+}
+
+#start-button {
+    background-color: #ec5443;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    top: 370px;
+    left: 325px;
+    cursor: pointer;
+
+
+}
+
+#weather-button {
+    background-color: #ec5443;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    top: 670px;
+    left: 325px;
+    cursor: pointer;
+
+
+}
+
+#start-button:hover {
+    background-color: #fff200;
+}
+
+/* MENU */
+
+
+#menu {
+    background-color: black;
+    width: 120px;
+    height: 500.00px;
+    position: fixed;
+    top: 15%;
+    z-index: 20;
+}
+
+/* PAGE 2 */
+.section: nth-child (5n+2) {
+    height: 768px;
+    background-color: red;
+}
+
+/*
+.weather {
+    background-color: aqua;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    top: 600px;
+    left: 210px;
+    z-index: 10;
+   
+}
+*/
+
+.weatherhelper {
+    background-color: palevioletred;
+}
+
+.temp {
+    background-color: none;
+    position: absolute;
+    top: 120px;
+}
+
+#button-2 {
+    background-color: blue;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    top: 1360px;
+    left: 325px;
+}
+
+/* PAGE 3 */
+
+.section:nth-child(5n+3) {
+    height: 768px;
+    background-color: #FFE33E;
+}
+
+/*
+.pickclothes {
+    background-color: aqua;
+    top: 1500px;
+    position: absolute;
+    left: 270;
+    
+}
+*/
+
+.left-arrow-1 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 250px;
+    top: 1680px;
+}
+
+.right-arrow-1 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 550px;
+    top: 1680px;
+}
+
+.top-images {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1600px;
+    left: 310px;
+}
+
+.left-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 250px;
+    top: 1920px;
+}
+
+.bottom-images {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1850px;
+    left: 310px;
+}
+
+.right-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    /* left: 550px;
+    top: 1920px; */
+}
+
+.button-3 {
+    background-color: blue;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    top: 2070px;
+    left: 325px;
+}
+
+/* PAGE 4 */
+
+.section:nth-child(5n+4) {
+    height: 768px;
+    background-color: green;
+}
+
+/*
+.shoes {
+    background-color: aqua;
+    position: absolute;
+    top: 2200px;
+    left: 280px;
+}
+*/
+
+.left-arrow-3 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: -50px;
+    top: 70px;
+}
+
+.shoe-images {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2300px;
+    left: 310px;
+
+}
+
+.right-arrow-3 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 220px;
+    top: 70px;
+}
+
+.shoe-description {
+    width: 300px;
+    position: absolute;
+    height: 100px;
+    top: 2520px;
+    left: 260px;
+    background-color: aquamarine
+}
+
+.right-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #555;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 550px;
+    top: 1920px;
+}
+
+.button-4 {
+    background-color: blue;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    top: 2640px;
+    left: 325px;
+}
+
+/* PAGE 5 */
+
+.section:nth-child(5n) {
+    height: 768px;
+    background-color: #FFE33E;
+}
+
+/*
+.Get-going {
+    width: 300px;
+    background-color:aqua;
+    position: absolute;
+    top: 2900px;
+    left: 260px;
+    text-align: center;
+    
+}
+*/
+
+.button-5 {
+    background-color: blue;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    top: 3000px;
+    left: 325px;
+}
