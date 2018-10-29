@@ -163,9 +163,9 @@ p {
     text-align: center;
 }
 
-body,
+body, 
 html {
-    background-image: url(/project_2/images/background/black-concrete-copy.jpg);
+    background-image: url(/images/background/black-concrete-copy.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
