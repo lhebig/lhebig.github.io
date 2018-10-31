@@ -164,11 +164,13 @@ p {
 }
 
 body, 
+/*
 html {
-    background-image: url(/project_2_copy/images/background/black-concrete-copy.jpg); 
+    background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+*/
 }
 
 a {
@@ -208,19 +210,29 @@ li {
 
 /* Styling for Each of the individual sections. Each section is called not by a class or id name but by using the nth-child pseudo class properties. */
 
-.section:nth-child(6n+1) {}
-
-.section:nth-child(6n+2) {}
-
-.section:nth-child(6n+3) {}
-
+.section:nth-child(6n+1) {
+    background-color:aqua;
 }
 
-.section:nth-child(6n+4) {}
+.section:nth-child(6n+2) {
+    background-color:red;
+}
 
-.section:nth-child(6n+5) {}
+.section:nth-child(6n+3) {
+    background-color:green;
+}
 
-.section:nth-child(6n) {}
+.section:nth-child(6n+4) {
+    background-color:powderblue;
+}
+
+.section:nth-child(6n+5) {
+    background-color:seagreen;
+}
+
+.section:nth-child(6n) {
+    background-color:rosybrown;
+}
 
 
 
