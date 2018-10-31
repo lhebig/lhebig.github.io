@@ -53,12 +53,8 @@ p {
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: -70px;
-/*
     top: 400px;
     left: 320px;
-*/
     cursor: pointer;
 }
 
@@ -73,11 +69,8 @@ p {
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    margin-left:-50px;
-/*
     top: 670px;
     left: 334px;
-*/
     cursor: pointer;
 
 }
@@ -93,12 +86,8 @@ p {
     height: 50px;
     border-radius: 10px;
     text-align: center;
-/*
     top: 650px;
     left: 334px;
-*/
-    margin-top:650px;
-    margin-left: -236px;
     cursor: pointer;
 
 }
@@ -114,16 +103,12 @@ p {
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 620px;
-    margin-left: -427px;
-/*
     top: 620px;
     left: 334px;
-*/
     cursor: pointer;
 }
 
-#shoe-button { 
+#shoe-button {
     font-family: "komu-a", sans- serif;
     font-weight: 400;
     font-style: normal;
@@ -134,12 +119,8 @@ p {
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    margin-top: -20px;
-    margin-left: -52px;
-/*
     top: 550px;
     left: 334px;
-*/
     cursor: pointer;
 }
 
@@ -154,12 +135,8 @@ p {
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: -50px;
-/*
     top: 450px;
     left: 334px;
-*/
     cursor: pointer;
 
 }
@@ -231,28 +208,17 @@ li {
 
 /* Styling for Each of the individual sections. Each section is called not by a class or id name but by using the nth-child pseudo class properties. */
 
-.section:nth-child(6n+1) {
-    padding: 100px
+.section:nth-child(6n+1) {}
+
+.section:nth-child(6n+2) {}
+
+.section:nth-child(6n+3) {}
+
 }
 
-.section:nth-child(6n+2) {
-    margin-bottom:100px;
-}
+.section:nth-child(6n+4) {}
 
-.section:nth-child(6n+3) {
-    margin-bottom: 300px;
-}
-
-
-.section:nth-child(6n+4) {
-    margin-top:-50px;
-    margin-bottom: 200px;
-}
-
-.section:nth-child(6n+5) {
-    margin-bottom: 100px;
-  
-}
+.section:nth-child(6n+5) {}
 
 .section:nth-child(6n) {}
 
@@ -444,7 +410,6 @@ li {
 #cropped,
 #shorts {
     width: 400px;
-    height:auto;
 }
 
 #impact img,
@@ -469,9 +434,6 @@ li {
 .bottoms-buttons {
     padding-top: 17px;
     padding-bottom: 17px;
-    position: absolute;
-    top: 150px;
-    left: 348px;
 }
 
 .bottoms-buttons #prev2,
@@ -513,23 +475,16 @@ li {
     box-sizing: border-box;
 }
 
+
 .bottoms-to-wear {
     width: 500px;
     min-width: 200px;
-    position:absolute;
     margin: auto;
     padding: 0;
     height: 400px !important;
-    left: 155px;
-    top: 220px;
+    left: 20px;
 }
 
-.bottoms-today {
-    position:absolute;
-    top: 80px;
-    left: 180px;
-
-}
 /* anchors */
 .cycle-slideshow > a {
     position: absolute;
