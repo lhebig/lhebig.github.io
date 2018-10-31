@@ -1,0 +1,709 @@
+/*****************************************/
+/*          Example Styles               */
+/*****************************************/
+
+
+h1 {
+    font-family: "komu-a", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #fff200;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "komu-a", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    left: 335px;
+}
+
+p {
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+
+}
+.p-slideshow {
+    position:absolute;
+    left: 80px;
+}
+
+#start-button {
+    font-family: "komu-a", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    top: 400px;
+    left: 320px;
+    cursor: pointer;
+}
+
+#weather-button {
+    font-family: "komu-a", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    top: 670px;
+    left: 334px;
+    cursor: pointer;
+
+}
+
+#clothes-button {
+    font-family: "komu-a", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    top: 650px;
+    left: 334px;
+    cursor: pointer;
+
+}
+
+#bottoms-button {
+    font-family: "komu-a", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    top: 620px;
+    left: 334px;
+    cursor: pointer;
+}
+
+#shoe-button {
+    font-family: "komu-a", sans- serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    top: 550px;
+    left: 334px;
+    cursor: pointer;
+}
+
+#button-top {
+    font-family: "komu-a", sans- serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #ec5443;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    top: 450px;
+    left: 334px;
+    cursor: pointer;
+
+}
+
+.footer,
+.header,
+.section {
+    display: table;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer > div,
+.section > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.header > div {
+    vertical-align: middle;
+    text-align: center;
+}
+
+body, 
+html {
+    background-image: url(/project_2_copy/images/background/black-concrete-copy.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 0
+}
+
+li {
+    list-style: none
+}
+
+.section-wrapper {
+    width: 768px;
+    margin: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 700px;
+}
+
+.header .first_paragraph {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    height: 1200px
+}
+
+
+/* Styling for Each of the individual sections. Each section is called not by a class or id name but by using the nth-child pseudo class properties. */
+
+.section:nth-child(6n+1) {}
+
+.section:nth-child(6n+2) {}
+
+.section:nth-child(6n+3) {}
+
+}
+
+.section:nth-child(6n+4) {}
+
+.section:nth-child(6n+5) {}
+
+.section:nth-child(6n) {}
+
+
+
+
+/* Color overlays are done by using a RGBA value instead of a hex code or normal RGB value. The A stands for opacity and is a percent of 1. */
+
+
+
+
+
+/*****************************************/
+/*         Slide Show: Top           */
+/*****************************************/
+
+
+.slideshow {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+}
+
+#tank,
+#pullover,
+#hoodie {
+    width: 400px;
+    height: 355px;
+    ;
+}
+
+#tank img,
+#pullover img,
+#hoodie img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#tank {}
+
+#pullover {
+    /*    background-color: yellow;*/
+}
+
+#hoodie {
+    /*    background-color: white;*/
+}
+
+.tops-buttons {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.tops-buttons #prev,
+.tops-buttons #next {
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: white;
+    background-color: #ec5443;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+.tops-buttons #prev:hover,
+.tops-buttons #next:hover {
+    color: black;
+    background-color: #fff200;
+}
+
+.tops-buttons #prev {
+    margin-right: 5px;
+}
+
+
+.center-tops {
+    margin-left: 200px;
+    ;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    top: 130px;
+    left: -60px;
+}
+
+/*
+.tops-buttons {
+    position: absolute; !important
+    top: 30px; !important
+}
+*/
+
+.cycle-slideshow,
+.cycle-slideshow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header-pos {
+    position:absolute;
+    top: 70px;
+    left: 240px;
+}
+.tops-to-wear {
+    height: 480px !important;
+    width: 700px;
+    min-width: 200px;
+    padding: 0;
+    position: absolute;
+    margin: auto;
+    top: 182px;
+    left: 180px;
+}
+
+/* anchors */
+.cycle-slideshow > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #222;
+    display: block;
+}
+
+/* images */
+.cycle-slideshow > a > img {
+    width: 100%;
+    position: static;
+    display: block;
+}
+
+/* divs */
+/*
+.cycle-slideshow > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+*/
+
+.composite-example > div {
+    background: white
+}
+
+.composite-example > div > img {
+    display: block;
+}
+
+.composite-example > div .cycle-overlay {
+    color: white;
+    background: black;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.cycle-slide p {
+    margin-left: 500px;
+    padding: 20px
+}
+
+
+
+/*****************************************/
+/*                  Slide Show: Bottoms           */
+/*****************************************/
+
+
+.slideshow {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+}
+
+#impact,
+#cropped,
+#shorts {
+    width: 400px;
+}
+
+#impact img,
+#cropped img,
+#shorts img {
+    width: 130%;
+    margin-left: -7%;
+    margin-right: 10%;
+}
+
+
+#impact {}
+
+#cropped {
+    /*    background-color: yellow;*/
+}
+
+#shorts {
+    /*    background-color: white;*/
+}
+
+.bottoms-buttons {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.bottoms-buttons #prev2,
+.bottoms-buttons #next2 {
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: white;
+    background-color: #ec5443;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottoms-buttons #prev2:hover,
+.bottoms-buttons #next2:hover {
+    color: black;
+    background-color: #fff200;
+}
+
+.bottoms-buttons #prev2 {
+    margin-right: 5px;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cycle-slideshow,
+.cycle-slideshow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.bottoms-to-wear {
+    width: 500px;
+    min-width: 200px;
+    margin: auto;
+    padding: 0;
+    height: 400px !important;
+    left: 20px;
+}
+
+/* anchors */
+.cycle-slideshow > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #222;
+    display: block;
+}
+
+/* images */
+.cycle-slideshow > a > img {
+    width: 100%;
+    position: static;
+    display: block;
+}
+
+/* divs */
+/*
+.cycle-slideshow > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+*/
+
+.composite-example > div {
+    background: white
+}
+
+.composite-example > div > img {
+    display: block;
+}
+
+.composite-example > div .cycle-overlay {
+    color: white;
+    background: black;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.cycle-slide p  {
+    margin: 0;
+    padding: 10px
+}
+
+
+
+/*****************************************/
+/*                  Slide Show: Shoes           */
+/*****************************************/
+
+
+.slideshow {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+}
+
+#competition,
+#trail,
+#tempo {
+    width: 500px;
+    height: 300px;
+}
+
+#competition img,
+#trail img,
+#tempo img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#competition {}
+
+#trail {
+    /*    background-color: yellow;*/
+}
+
+#tempo {
+    /*    background-color: white;*/
+}
+
+.shoe-buttons {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.shoe-buttons #prev3,
+.shoe-buttons #next3 {
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: white;
+    background-color: #ec5443;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shoe-buttons #prev3:hover,
+.shoe-buttons #next3:hover {
+    color: black;
+    background-color: #fff200;
+}
+
+.shoe-buttons #prev3 {
+    margin-right: 5px;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cycle-slideshow,
+.cycle-slideshow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.shoes-to-wear {
+    height: 350px !important;
+    width: 600px !important;
+    min-width: 200px;
+    margin: auto;
+    padding: 0;
+    left: 50px;
+
+}
+
+.shoes-to-wear img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+
+}
+
+/* anchors */
+.cycle-slideshow > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #222;
+    display: block;
+}
+
+/* images */
+.cycle-slideshow > a > img {
+    width: 100%;
+    position: static;
+    display: block;
+}
+
+/* divs */
+/*
+.cycle-slideshow > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+*/
+
+.composite-example > div {
+    background: white
+}
+
+.composite-example > div > img {
+    display: block;
+}
+
+.composite-example > div .cycle-overlay {
+    color: white;
+    background: black;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.cycle-slide p  {
+    margin-left: 10px;
+    padding: 10px
+}
+
+
+
+
+/*****************************************/
+/*            Smart Scroll CSS           */
+/*****************************************/
+
+/* line 1, ../sass/smartscroll.scss */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
