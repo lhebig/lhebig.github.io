@@ -1,0 +1,71 @@
+.container {
+    position:relative;
+/*    background-color: aqua;*/
+    width:768px;;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-title {
+    position: absolute;
+    height: 32px;
+    width: 250px;
+    background-color: pink;
+    padding: 10px 40px 10px 10px;
+    top: 30px;
+    left: 30px;
+}
+
+.menu {
+    position: absolute;
+    height: 32px;
+    width: 30px;
+    background-color: gold;
+    top: 30px;
+    left: 500px;
+}
+
+.hello {
+     position: absolute;
+    background-color:green;
+    height: 100px;
+    width: 400px;
+    top: 150px;
+    left: 100px;
+}
+
+.nav-bar {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    background-color: blue;
+    top: 300px;
+}
+
+.portfolio {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.image-1 {
+    position:absolute;
+    display:flex;
+    width: 300px;
+    height:300px;
+    background-color:purple;
+    top: 400px;
+}
+
+.image-2{
+    position:absolute;
+    display:flex;
+    width: 300px;
+    height:300px;
+    background-color:purple;
+    top: 400px;
+    left: 350px;
+    
+}
+
