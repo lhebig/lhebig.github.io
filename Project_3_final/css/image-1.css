@@ -4,6 +4,7 @@
 
 body {
     display: block;
+    margin:0;
 
 }
 
@@ -30,8 +31,8 @@ a:active {
 h1 {
     font-family: montserrat, sans-serif;
     font-weight: 400;
-    font-size: 2rem;
-    margin-top: .5rem;
+    font-size: 1.8rem;
+    margin-top: .65rem;
 }
 
 h2 {

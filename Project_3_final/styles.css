@@ -4,6 +4,7 @@
 
 body {
     display: block;
+    margin:0;
 
 }
 
@@ -28,8 +29,8 @@ a:active {
 h1 {
     font-family: montserrat, sans-serif;
     font-weight: 400;
-    font-size: 2rem;
-    margin-top: .5rem;
+    font-size: 1.8rem;
+    margin-top: .65rem;
 }
 
 h2 {
@@ -86,6 +87,7 @@ header {
     padding: .9rem 1rem;
     text-decoration: none;
     font-size: 1.2rem;
+ 
 }
 
 .topnav a:hover {
@@ -94,6 +96,7 @@ header {
 
 .active {
     color: black;
+    
 }
 
 .topnav .icon {
@@ -103,6 +106,8 @@ header {
     /*    background-color: black;*/
     padding: 0px;
     margin: 0px;
+    z-index:1;
+
 }
 
 /*
@@ -217,6 +222,8 @@ fa {
 @media screen and (max-width: 630px) {
      .topnav a:not(:first-child) {
         display: none;
+        z-index:11;
+
     }
 
     .topnav a.icon {
@@ -235,6 +242,7 @@ fa {
 @media screen and (max-width: 630px) {
     .topnav.responsive {
         position: relative;
+        z-index:11;
     }
 
     .topnav.responsive a.icon {
@@ -249,6 +257,9 @@ fa {
         text-align: left;
     }
 
+    .name {
+        z-index: -20;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -265,6 +276,10 @@ fa {
     }
     .img {
         padding:0 0 1.5rem 0;
+    }
+    
+    .name {
+        font-size:1rem; !important
     }
 }
 
